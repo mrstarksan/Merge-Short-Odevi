@@ -1,0 +1,13 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+1) [16,24,11] - [8,12,22] Ortadan 2 ye bölüyoruz.
+
+2) [16,24] - [11] - [8] - [12,22] Sayıların hepsi tek kalana kadar bölmeye devam.
+
+3) [16] - [24] - [11] - [8] - [12] - [22] Sayılar artık tek kaldı.
+
+4) [11]-[16]-[24] /// [8]-[12]-[22] Şimdi gruplar halinde birleştiriyoruz ve artık en soldaki elemanların en küçük olduğundan eminiz.
+
+5) [8,11,12,16,22,24] Son aşamada hepsini birleştiriyoruz.
+
+Big O(nLogn)
